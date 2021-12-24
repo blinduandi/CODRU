@@ -1,0 +1,127 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+.search_bar {
+    background-color: #FFD523;
+    background: black;
+}
+
+body {
+    font-family: 'Futura PT Light', sans-serif !important;
+}
+
+.btnn {
+    display: inline;
+    padding-left: 0px;
+    margin-left: 0%;
+    width: 10%;
+}
+
+.carousel-item {
+    max-height: 800px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.searchh {
+    position: absolute;
+    font-size: 150%;
+    margin-left: 35%;
+    margin-top: 26px;
+    padding-left: 320px;
+}
+
+.search {
+    padding-left: 50px;
+    border-radius: 10rem;
+    width: 30%;
+    font-size: 150%;
+    outline: none;
+    background-color: white;
+    margin-left: 35%;
+    min-width: 300px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1600px) {
+    .btnn {
+        padding-left: 300px;
+        margin-left: 55%;
+        display: flex;
+        right: 0;
+        width: 55%;
+        justify-content: end;
+    }
+    .searchh {
+        position: absolute;
+        font-size: 150%;
+        margin-left: 35%;
+        margin-top: 26px;
+        padding-left: 320px;
+    }
+    .search {
+        padding-left: 50px;
+        border-radius: 10rem;
+        width: 35%;
+        font-size: 150%;
+        outline: none;
+        background-color: white;
+        margin-left: 35%;
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .btnn {
+        padding-left: 0px;
+        margin-left: 0px;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .search {
+        padding-left: 50px;
+        border-radius: 10rem;
+        width: 100%;
+        font-size: 150%;
+        margin-left: 0%;
+        outline: none;
+        background-color: white;
+        outline: none;
+    }
+    .searchh {
+        padding-left: 40px;
+        position: absolute;
+        font-size: 150%;
+        margin-left: 0%;
+        margin-top: 124px;
+    }
+}
+
+.category {
+    background-color: #1f2329;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cat-btn {
+    padding-left: 10%;
+}
+
+hr {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
